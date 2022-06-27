@@ -1,0 +1,31 @@
+<html>
+<head>
+
+    <title> HEART DISEASE PREDICTION </title>
+</head>
+
+<div class=" container text-center">
+    <form action="/predict" method="post">
+        <input type = "text" name = 'Age' placeholder="Age"><br>
+        <input type = "text" name = 'Sex: male =1,female=0' placeholder="Sex:male=1,female=0"><br>
+        <input type = "text" name = 'Cp' placeholder="Cp"><br>
+        <input type = "text" name = 'trestbps' placeholder="trestbps"><br>
+        <input type = "text" name = 'chol' placeholder="chol"><br>
+        <input type = "text" name = 'fbs' placeholder="fbs"><br>
+        <input type = "text" name = 'restecg' placeholder="restecg"><br>
+        <input type = "text" name = 'thalch' placeholder="thalch"><br>
+        <input type = "text" name = 'exang' placeholder="exang"><br>
+        <input type = "text" name = 'oldpeak' placeholder="oldpeck"><br>
+        <input type = "text" name = 'slope' placeholder="slope"><br>
+        <input type = "text" name = 'ca' placeholder="ca"><br>
+        <input type = "text" name = 'thal' placeholder="thal"><br>
+        <button class="btn btn-success" >submit</button>
+
+
+    </form>
+
+</div>
+
+          <h3> RESULT = {{prediction_text}} </h3>
+
+</html>
